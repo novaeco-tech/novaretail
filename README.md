@@ -43,7 +43,7 @@ graph TD
     end
 
     subgraph "The Lifecycle Layer"
-        API -->|Update Status| Mat[NovaMaterial (DPP)]
+        API -->|Update Status| Mat["NovaMaterial (DPP)"]
         API -->|Send to Shredder| Recycle[NovaRecycle]
     end
 ```
